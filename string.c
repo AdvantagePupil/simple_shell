@@ -6,7 +6,7 @@
  * @str: pointer to a string
  * Return: pointer to a string
  */
-char *_strdup(char *str)
+char *_strdup(const char *str)
 {
 	int i, l;
 	char *new;
